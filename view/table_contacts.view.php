@@ -30,6 +30,8 @@
                                     <thead>
                                         <tr>
                                             <th>Contact</th>
+                                            <th>Email</th>
+                                            <th>Téléphone</th>
                                         </tr>
                                     </thead>
                                    <!-- <tfoot>
@@ -46,7 +48,9 @@
                                         
                                     <?php foreach ($data as $onedata) { ?>
                                         <tr>
-                                            <td><?= $onedata["contact_name"] ?></td>                                         
+                                            <td><?= $onedata["contact_name"] ?></td>
+                                            <td><?= $onedata["contact_email"] ?></td>
+                                            <td><?= $onedata["contact_phone"] ?></td>                                        
                                         </tr>
                                         <?php } ?>
                                         

@@ -6,7 +6,7 @@ include("config/config.inc.php");
 include("model/pdo.inc.php");
 
 try {
-    $query = "SELECT contact_name
+    $query = "SELECT contact_name, contact_email, contact_phone
     FROM blog_contacts
     GROUP BY contact_name
     ";
